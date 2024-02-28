@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>+</head>
+<body>
+    <h1 align="center">lirur cisar</h1>
+    <div class="interfaz">
+        <div class="pedido" align="center">
+            <h4>pedido</h4>
+            <p>menu</p>
+            <table border="1">
+                <tr><th>comida</th><th>bebida</th></tr>
+                <tr>
+                    <td>hamburguesa con papas</td>
+                    <td>coca</td>
+                </tr>
+                <tr>
+                    <td>tacos de birria</td>
+                    <td>fanta</td>
+                </tr>
+                <tr>
+                    <td>nachos</td>
+                    <td>pilsener</td>
+                </tr>
+            </table>
+            <br>
+            <label for="text">cliente: <input type="text" id="nombre"></label>
+            <br><br>
+            <label for="text">comida: </label>
+            <select id="opcionComida">
+               <option>hamburguesa con papas</option>
+               <option>tacos de birria</option>
+               <option>nachos</option>
+            </select>
+            <input type="number" id="cantidadCo" min="0" max="100">
+            <br>
+            <label for="text">bebida: </label>
+            <select id="opcionBebida">
+               <option>coca-cola</option>
+               <option>fanta</option>
+               <option>pilsener</option>
+            </select>
+            <input type="number" id="cantidadBe" min="0" max="100">
+            <br><br>
+            <button id="btnPedir">pedir</button>
+        </div>
+
+        <div class="cocina" align="center">
+            <h4>cocina</h4>
+            <br>
+            <div id="tablita"></div>
+            <br>
+            <button id="despachar">despachar</button>
+        </div>
+        <div class="estate">
+            <h4>estado</h4>
+            <br>
+            <div id="estado"></div>
+            <br>
+            <h4 id="entregar"></h4>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
