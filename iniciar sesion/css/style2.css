@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(220, 194, 108);
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: rgb(247, 242, 242);
+}
+.container{
+    background-color: rgba(77, 142, 142, 0.904);
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10%;
+}
+#BTNcrear{
+    background-color: rgb(226, 233, 92);
+    margin-bottom: 5%;
+}
