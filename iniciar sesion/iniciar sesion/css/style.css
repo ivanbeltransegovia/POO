@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(119, 177, 239);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 1%;
+    background-color: rgb(117, 216, 145);
+    width: 40%;
+    height: 10%;
+    margin-top: 5%;
+}
+#ingresar{
+    background-color: rgb(184, 205, 89);
+    margin-bottom: 3%;
+}
